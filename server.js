@@ -154,4 +154,4 @@ app.get("*", (req, res) => {
   res.sendFile("./build/index.html", { root: '.' });
 });
 
-app.listen(PORT, () => console.log(`http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
