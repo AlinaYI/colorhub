@@ -1,1 +1,1 @@
-web: cross-env PORT=4000 node server.js
+web: node server.js
